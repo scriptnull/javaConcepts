@@ -2,12 +2,12 @@ javaConcepts
 ============
 
 A beginner's guide to Java Programming language.
-
-=>Basic constructs and syntax of the language described <br/>
-=>Comment lines added in most places to describe almost everything<br/>
-=>Skim the repo for a quick revision on the language<br/>
-=>Updated frequently (most probably :P )<br/>
-
+<ul>
+<li>Basic constructs and syntax of the language described </li>
+<li>Comment lines added in most places to describe almost everything</li>
+<li>Skim the repo for a quick revision on the language</li>
+<li>Updated frequently (most probably :P )</li>
+</ul>
 
 This is repo may simple and silly , but it may actually help out few students and language learners.<br/>
 <br/>
