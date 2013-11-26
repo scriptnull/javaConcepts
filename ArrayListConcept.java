@@ -14,6 +14,24 @@ public class ArrayListConcept {
 		mylist.add("second");
 		mylist.add("third");
 		
+		//iterating through the list
+		//using foreach to get value 
+		
+		System.out.println("foreach magic");
+		for(String x : mylist)
+		{
+			System.out.println(x);
+		}
+		
+		//using List Iterators to loop through list seems more memory efficient
+		System.out.println("ListIterator Magic");
+		ListIterator<String> iterate = mylist.listIterator();
+		while(iterate.hasNext())
+		{
+			System.out.println(iterate.next());
+		}
+		
+		
 		System.out.println(mylist);
 		
 		ArrayList<String> mylistCloned = (ArrayList<String>) mylist.clone();

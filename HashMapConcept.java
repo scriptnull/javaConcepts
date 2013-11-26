@@ -15,6 +15,17 @@ public class HashMapConcept {
 		myMap.put("Vegetable", "Tomato");
 		myMap.put("Color", "Blue");
 		
+		//iterating through hashmap
+		//cannot use for each loop
+		
+		Set<String> mySet = myMap.keySet();
+		Iterator<String> iterate = mySet.iterator();
+		while(iterate.hasNext()){
+			String x = iterate.next();
+			System.out.println("key Values : " + x + " value :" + myMap.get(x) );
+			
+		}
+		
 		System.out.println(myMap);
 		
 		System.out.println("Is a key named Fruit found in myMap ? " + myMap.containsKey("Fruit"));
